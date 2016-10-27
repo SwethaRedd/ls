@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Swetha </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="db.js"></script>
+  <script type="text/javascript" src="dbOperations.js"></script>
+  <script type="text/javascript" src="yql.js"></script>
+</head>
+<body>
+
+
+  <div style="text-align:center">  
+   <br/> <button id="reset" style ="text-align:center" type="button" class="btn btn-danger">Reset</button> <br/><br/>
+   <div>
+
+    <div class="container">
+      <div class="row flex">
+          <div class="col-md-4">
+            <div class="panel panel-primary">
+             <div class="panel-heading">Parks</div>
+             <div id="Parks" class="panel-body"></div> 
+           </div>
+         </div><!--/col-->
+         <div class="col-md-4">
+          <div class="panel panel-success">
+           <div class="panel-heading">Schools</div>
+           <div id="Schools" class="panel-body"></div> 
+         </div>
+       </div><!--/col-->
+       <div class="col-md-4">
+        <div class="panel panel-info">
+         <div class="panel-heading">Restaurents</div>
+         <div id="Restaurents" class="panel-body"></div> 
+       </div>
+     </div><!--/col-->
+ </div>
+ <div class="row flex">
+    <div class="col-md-4">
+      <div class="panel panel-warning">
+       <div class="panel-heading">Apartments</div>
+       <div id="Apartments" class="panel-body"></div> 
+     </div>
+   </div><!--/col-->
+   <div class="col-md-4">
+    <div class="panel panel-danger">
+     <div class="panel-heading">Transit</div>
+     <div id="Transit" class="panel-body"></div> 
+   </div>
+ </div><!--/col-->
+</div>
+</div>
+</body>
+</html>
